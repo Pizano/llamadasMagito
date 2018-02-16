@@ -23,8 +23,8 @@ create table Registro_Llamadas(
 	fecha datetime not null,
 	Usuario nvarchar(100) not null,
 	Notas nvarchar(250)  null,
-	NumserieCampeon nvarchar(30)not null,
-	NumserieSmart nvarchar(30)not null,
+	NumserieCampeon nvarchar(30) null,
+	NumserieSmart nvarchar(30) null,
 	Atendio nvarchar(100) not null,
 	
 	primary key(Id_Rllamadas),
