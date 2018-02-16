@@ -38,7 +38,7 @@ create table Registro_Llamadas(
 create table Persona(
 	Id_Persona int not null identity,
 	Nombre nvarchar(100) not null,
-	TelefonoFijo nvarchar(100)not null,
+	TelefonoFijo nvarchar(100) null,
 	TelefonoCelular nvarchar(100)not null,
 	Correo nvarchar(100)not null,
 	Empresa nvarchar(100)null,
@@ -48,4 +48,5 @@ create table Persona(
 
 
 );
+
 
