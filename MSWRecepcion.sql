@@ -20,7 +20,7 @@ create table Registro_Llamadas(
 	Id_Lcatalogo int not null,
 	Id_Persona int not null,
 	Id_Pcatalogo int not null,
-	fecha datetime not null,
+	Fecha datetime not null,
 	Usuario nvarchar(100) not null,
 	Notas nvarchar(250)  null,
 	NumserieCampeon nvarchar(30) null,
