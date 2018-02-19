@@ -23,9 +23,9 @@ create table Registro_Llamadas(
 	Fecha datetime not null,
 	Usuario nvarchar(100) not null,
 	Notas nvarchar(250)  null,
-	NumserieCampeon nvarchar(30) null,
-	NumserieSmart nvarchar(30) null,
-	Atendio nvarchar(100) not null,
+	NumSerieCampeon nvarchar(30) null,
+	NumSerieSmart nvarchar(30) null,
+	Atendido nvarchar(100) not null,
 	
 	primary key(Id_Rllamadas),
 	foreign key(Id_Lcatalogo) references Llamada_Catalogo(Id_Lcatalogo),
